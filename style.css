@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    font-family: "Mulish", sans-serif;
+    font-size: 62.5%;
+    --roxo: #B52184;
+    --AzulEscuro: #312D64;
+    --branco: #F9F4FB;
+    --linear: #343193;
+}
+
+header {
+    width: 43rem;
+    height: 67.9rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: var(--branco);
+
+
+}
+
+.img {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+header h1 {
+    font-size: 3.2rem;
+    color: var(--roxo);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+
+}
+
+header h2 {
+    font-size: 2rem;
+    color: var(--AzulEscuro);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+
+    display: flex;
+    padding-top: 3.5rem;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a{
+    padding-top: 3.5rem;
+}
+
+main {
+    margin: 0 auto;
+    background: var(--AzulEscuro);
+    width: 43rem;
+    height: 124.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.lua1 {
+    width: 35.2rem;
+    height: 33.7rem;
+    margin-top: 5.2rem;
+    margin-bottom: 4.9rem;
+    background: var(--branco);
+    border-radius: 1.9rem;
+
+}
+
+
+.lua1 img {
+
+    margin-top: 2.6rem;
+    margin-right: 24.5rem;
+    margin-left: 2.6rem;
+}
+
+.lua1 h1 {
+    color: var(--roxo);
+    margin-top: 1.5rem;
+    margin-right: 9.4rem;
+    margin-left: 2.6rem;
+    font-size: 2.9rem;
+    font-weight: 900;
+
+}
+
+.lua1 p {
+    color: var(--AzulEscuro);
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 26.5rem;
+    height: 13.1rem;
+    margin-left: 2.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+
+}
+
+
+.lua2 {
+    width: 35.2rem;
+    height: 33.7rem;
+    margin-top: 5.2rem;
+    margin-bottom: 4.9rem;
+    background: var(--branco);
+    border-radius: 1.9rem;
+
+}
+
+
+.lua2 img {
+
+    margin-top: 2.6rem;
+    margin-right: 24.5rem;
+    margin-left: 2.6rem;
+}
+
+.lua2 h1 {
+    color: var(--roxo);
+    margin-top: 1.5rem;
+    margin-right: 9.4rem;
+    margin-left: 2.6rem;
+    font-size: 2.9rem;
+    font-weight: 900;
+
+}
+
+.lua2 p {
+    color: var(--AzulEscuro);
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 26.5rem;
+    height: 13.1rem;
+    margin-left: 2.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+
+}
+
+
+.lua3 {
+    width: 35.2rem;
+    height: 34.7rem;
+    margin-top: 5.2rem;
+    margin-bottom: 4.9rem;
+    background: var(--branco);
+    border-radius: 1.9rem;
+
+}
+
+
+.lua3 img {
+
+    margin-top: 2.6rem;
+    margin-right: 24.5rem;
+    margin-left: 2.6rem;
+}
+
+.lua3 h1 {
+    color: var(--roxo);
+    margin-top: 1.5rem;
+    margin-right: 9.4rem;
+    margin-left: 2.6rem;
+    font-size: 2.9rem;
+    font-weight: 900;
+
+}
+
+.lua3 p {
+    color: var(--AzulEscuro);
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 26.5rem;
+    height: 13.1rem;
+    margin-left: 2.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+
+}
+
+form {
+    width: 43rem;
+    height: 56.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: var(--branco);
+
+}
+
+fieldset {
+    border: none;
+}
+
+legend h1 {
+    margin-top: 7.8rem;
+    margin-right: 11.8rem;
+    margin-left: 4rem;
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: var(--roxo);
+}
+
+.enter1 {
+    position: relative;
+    width: 34.8rem;
+    /* Ajustando a largura do contêiner ao input */
+    margin-left: 4.4rem;
+
+}
+
+.enter1 img {
+    position: absolute;
+    left: 1.2rem;
+    /* Ajuste o posicionamento conforme necessário */
+    top: 65%;
+    transform: translateY(-50%);
+    width: 2.4rem;
+    /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    pointer-events: none;
+    /* Para que a imagem não interfira com a interação do input */
+}
+
+.enter1 input {
+    width: 100%;
+    /* Mantém a largura do input igual à do contêiner */
+    height: 4.8rem;
+    border-radius: 1.6rem;
+    margin-top: 2.4rem;
+    border: 2px solid #312D64;
+    padding-left: 4rem;
+    /* Ajuste o padding para dar espaço para a imagem */
+    margin-left: 0;
+    /* Remove o margin-left para alinhar o input ao contêiner */
+    color: var(--AzulEscuro);
+    box-sizing: border-box;
+    /* Inclui o padding na largura total */
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background: var(--branco);
+}
+
+
+
+.enter2 {
+    position: relative;
+    width: 34.8rem;
+    /* Ajustando a largura do contêiner ao input */
+    margin-left: 4.4rem;
+}
+
+.enter2 img {
+    position: absolute;
+    left: 1.2rem;
+    /* Ajuste o posicionamento conforme necessário */
+    top: 65%;
+    transform: translateY(-50%);
+    width: 2.4rem;
+    /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    pointer-events: none;
+    /* Para que a imagem não interfira com a interação do input */
+}
+
+.enter2 input {
+    width: 100%;
+    /* Mantém a largura do input igual à do contêiner */
+    height: 4.8rem;
+    border-radius: 1.6rem;
+    margin-top: 2.4rem;
+    border: 2px solid #312D64;
+    padding-left: 4rem;
+    /* Ajuste o padding para dar espaço para a imagem */
+    margin-left: 0;
+    /* Remove o margin-left para alinhar o input ao contêiner */
+    color: var(--AzulEscuro);
+    box-sizing: border-box;
+    /* Inclui o padding na largura total */
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background: var(--branco);
+
+}
+
+.enter3 textarea {
+    margin-top: 2.4rem;
+    margin-left: 4.4rem;
+    width: 34.8rem;
+    height: 12.6rem;
+    border: 2px solid #312D64;
+    border-radius: 1.6rem;
+    color: var(--AzulEscuro);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background: var(--branco);
+}
+
+::placeholder {
+    color: var(--AzulEscuro);
+    opacity: 1;
+}
+
+.button input {
+    margin-top: 2.4rem;
+    margin-left: 4.4rem;
+    width: 15.1rem;
+    height: 4.5rem;
+    background: var(--linear);
+    font-family: "Mulish", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 1.6rem;
+    border: none;
+}
+
+.button input:hover {
+    background: #160fe2;
+    transform: scale(1.1);
+}
+
+footer {
+    margin: 0 auto;
+    background: var(--AzulEscuro);
+    width: 43rem;
+    height: 7.8rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding-top: 3.2rem;
+}
+
+/* Estilos para desktop */
+@media (width > 45rem) {
+    .page {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "main main"
+            "form form"
+            "footer footer" ;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        
+    }
+
+    header {
+        grid-area: header;
+        width: 100%;
+        height: auto;
+        background: var(--branco);
+
+        
+    }
+    .container {
+        display: flex;
+       flex-direction: row-reverse;
+        gap: 2.8rem;
+    }
+   
+    header .img {
+        
+        width: 44rem;
+        height: 45rem;
+        margin-bottom: 10.3rem;
+        margin-right: 50rem;
+        position: relative;
+
+    }
+
+    header h1 {
+        margin-top: 5.2rem;
+        width: 45rem;
+        font-size: 3.64rem;
+    } 
+
+    h2 {
+        width: 33rem;
+        width: 45rem;
+    } 
+
+
+
+    header .imagem{
+        margin: 5rem 10rem 8rem 43rem;
+        display: flex;
+    padding-top: 7.5rem;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+    }
+
+    .imagem a {
+
+        margin-top: 10rem;
+        margin-right: 25rem;
+      
+     
+    }
+
+
+    main {
+        grid-area: main;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .wrapper {
+        display: flex;
+        gap: 6rem;
+
+    }
+    
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        margin-right: 55rem;
+        margin-bottom: 5rem;
+        margin-top: 0;
+        margin-left: 30rem;
+        width: 100%;
+        
+    
+    }
+
+    .enter1  {
+        
+        width: 60rem;
+
+    }
+
+    .enter2  {
+        
+        width: 60rem;
+
+    }
+
+    .enter3 textarea  {
+        
+        width: 60rem;
+
+    }
+
+    form {
+        display: flex;
+        justify-content: flex-start;
+        grid-area: form;
+        width: 100%;
+        height: auto;
+        background: var(--branco);
+        background: url(./imagens/estrelas.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        gap: 9.2rem;
+        
+       
+    }
+
+    footer {
+        grid-area: footer;
+        width: 100%;
+        height: 7.8rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+    
+  @keyframes top{
+
+    0% {
+        transform: translateY(-100%);
+    }
+
+  }
+
+  @keyframes bottom {
+
+    0% {
+        transform: translateY(100%);
+    }
+
+  }
+
+  header {
+    animation: top 1s;
+  }
+
+  footer {
+    animation: bottom 1s;
+  }
+
